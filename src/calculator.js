@@ -1,5 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
-
 exports._check = (x, y) => {
   if (typeof x !== 'number') {
     throw new TypeError(`${x} is not a number`);
@@ -7,7 +5,6 @@ exports._check = (x, y) => {
   if (typeof y !== 'number') {
     throw new TypeError(`${y} is not a number`);
   }
-  // HINT: you can invoke this function with exports._check()
 };
 
 exports.add = (x, y) => {
